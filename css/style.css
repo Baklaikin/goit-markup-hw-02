@@ -5,14 +5,14 @@
 хедер и карточки- #FFFFFF
 основной фон- #E5E5E5 
 надписи в футере - rgba(255, 255, 255, 0.6)*/
-:root {
+/* :root {
     --main-bg-color: #E5E5E5;
     --header-bg-color: #FFFFFF;
     --button-color: #2196F3;
     --main-text-color: #757575;
     --header-text-color: #212121;
     --footer-text-color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 .header{
     background-color: var(--header-bg-color);
