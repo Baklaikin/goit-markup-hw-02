@@ -14,23 +14,6 @@
     --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-ul {
-    list-style: none;
-    text-decoration: none;
-    color: var(--header-text-color);
-}
-
-a {
-    text-decoration: none;
-    color: var(--header-text-color);
-}
-
 .header{
     background-color: var(--header-bg-color);
     font-family: Roboto, sans-serif;
@@ -83,18 +66,7 @@ h1{
     letter-spacing: 0.06em;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 
 main {
     font-family: Roboto, sans-serif;
@@ -122,7 +94,7 @@ main {
 
 .hero {
     width: 1600px;
-    height: 600px;
+    height: auto;
     background-color: #2F303A;
 }
 
@@ -137,7 +109,7 @@ main {
 
 .button {
     background-color: var(--button-color);
-    color: var(--main-bg-color);
+    color: var(--header-bg-color);
     font-size: 16px;
     line-height: 30px;
     font-weight: 700;
@@ -154,7 +126,7 @@ main {
 
 .personnel {
     width: 1600px;
-    height: 648px;
+    height: auto;
     background-color: #F5F4FA;
 }
 

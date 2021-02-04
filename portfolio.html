@@ -6,92 +6,98 @@
         <meta name="description" content="Первое задание по верстке">
         <meta name="author" content="Баклайкин Константин">
         <title>Portfolio</title>
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/portfolio.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <header class="header">
             <nav>
                 <!-- Логотип -->
-                <a href="./index.html"><span>Web</span>Studio</a>
+                <a href="./index.html" class="header-link"><span class="logo">Web</span>Studio</a>
             <!-- Ссылки навигации по страницам сайта -->
-                <ul>
+                <ul class="nav-links">
                     <li><a href="./index.html">Студия</a></li>
                     <li><a href="">Портфолио</a></li>
                     <li><a href="">Контакты</a></li>
                 </ul>
             <!-- Телефон и почта -->
-                <ul>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <ul class="nav-links">
+                    <li><a href="mailto:info@devstudio.com" class="pcolor">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="pcolor">+38 096 111 11 11</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <!-- Portfolio section -->
-        <section>
-            <h1>Перечень проэктов</h1>
-            
-            <button type="button">Все</button>
-            <button type="button">Веб-сайты</button> 
-            <button type="button">Приложения</button> 
-            <button type="button">Дизайн</button> 
-            <button type="button">Маркетинг</button> 
+        <section class="portfolio">
+            <h1 class="visually-hidden">Перечень проэктов</h1>
+
+            <button type="button" class="buttons">Все</button>
+            <button type="button" class="buttons">Веб-сайты</button> 
+            <button type="button" class="buttons">Приложения</button> 
+            <button type="button" class="buttons">Дизайн</button> 
+            <button type="button" class="buttons">Маркетинг</button> 
             
             <ul>
                 <li>
                     <img src="./images/laptop.jpg" alt="ноутбук с карточками людей" width="370">
-                    <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
+                    <h2 class="card-header">Технокряк</h2>
+                    <p class="card-p">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/basketball-players.jpg" alt="баскетболист прыгает с мячом" width="370">
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p>Дизайн</p>
+                    <h2 class="card-header">Постер New Orlean vs Golden Star</h2>
+                    <p class="card-p">Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/fish-and-logo.jpg" alt="логотип рыбного ресторана" width="370">
-                    <h2>Ресторан Seafood</h2>
-                    <p>Приложение</p>
+                    <h2 class="card-header">Ресторан Seafood</h2>
+                    <p class="card-p">Приложение</p>
                 </li>
                 <li>
                     <img src="./images/headset.jpg" alt="черные накладные наушники" width="370">
-                    <h2>Проект Prime</h2>
-                    <p>Маркетинг</p>
+                    <h2 class="card-header">Проект Prime</h2>
+                    <p class="card-p">Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/small-boxes.jpg" alt="декоративные коробки с надписями" width="370">
-                    <h2>Проект Boxes</h2>
-                    <p>Приложение</p>
+                    <h2 class="card-header">Проект Boxes</h2>
+                    <p class="card-p">Приложение</p>
                 </li>
                 <li>
                     <img src="./images/mac-screen.jpg" alt="экран макинтоша с информацией" width="370">
-                    <h2>Inspiration has no Borders</h2>
-                    <p>Веб-сайт</p>
+                    <h2 class="card-header">Inspiration has no Borders</h2>
+                    <p class="card-p">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/opened-book.jpg" alt="открытая книга" width="370">
-                    <h2>Издание Limited Edition</h2>
-                    <p>Дизайн</p>
+                    <h2 class="card-header">Издание Limited Edition</h2>
+                    <p class="card-p">Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/label.jpg" alt="ярлык бумажный" width="370">
-                    <h2>Проект LAB</h2>
-                    <p>Маркетинг</p>
+                    <h2 class="card-header">Проект LAB</h2>
+                    <p class="card-p">Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/laptop-typing.jpg" alt="руки на клавиатуре ноутбука" width="370">
-                    <h2>Growing Business</h2>
-                    <p>Приложение</p>
+                    <h2 class="card-header">Growing Business</h2>
+                    <p class="card-p">Приложение</p>
                 </li>
             </ul>
         </section>
         </main>
-<footer>
-    <a href="/"><span>Web</span>Studio</a>
-    <address>
+<footer class="footer">
+    <a href="/" class="header-link f-logo"><span class="logo">Web</span>Studio</a>
+    <address class="advantage-p fcolor">
         г. Киев, пр-т Леси Украинки, 26
         <ul>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+            <li><a href="mailto:info@example.com" class="footer-links">info@example.com</a></li>
+            <li><a href="tel:+380991111111" class="footer-links">+38 099 111 11 11</a></li>
         </ul> 
     </address>
 </footer>

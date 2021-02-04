@@ -1,0 +1,39 @@
+:root {
+    --main-bg-color: #E5E5E5;
+    --main-text-color: #757575;
+    --header-bg-color: #FFFFFF;
+    --header-text-color: #212121;
+    --button-color: #2196F3;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    color: var(--header-text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--header-text-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
