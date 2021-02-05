@@ -6,6 +6,10 @@
     --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -24,13 +28,11 @@ a {
 }
 
 main {
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
 .header{
     background-color: var(--header-bg-color);
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
