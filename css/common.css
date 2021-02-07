@@ -95,7 +95,7 @@ main {
     color: var(--header-bg-color);
 }
 
-.footer-links {
+.footer-links>a {
     color: rgba(255, 255, 255, .6);
  
 }
